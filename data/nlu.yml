@@ -1,0 +1,134 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: get_holiday_info
+  examples: |
+    - What are the holidays this year?
+    - Can you tell me about upcoming holidays?
+    - When is the next holiday?
+    - List the holidays for [2024](year).
+
+- intent: get_policy_info
+  examples: |
+    - What is the leave
+    - Tell me about the health insurance
+
+- intent: calculate_tax
+  examples: |
+    - How do I calculate my tax?
+    - Can you help me with tax deductions?
+    - What is the tax rate for this year?
+    - Calculate my tax for [2024](year) with an income of [50000](amount).
+    - What is the tax for an income of [60000](amount) in [2023](year)?
+
+- intent: get_department_info
+  examples: |
+    - What does the finance department do?
+    - Can you give me information about HR?
+    - Who is the head of the IT department?
+
+- intent: search_document
+  examples: |
+    - I want to see the policy documents
+    - Can you find WFH documents?
+    - Show me the work from home policy
+    - objective of wfh policy
+    - summary of the document
+    - What is the work-from-home policy?
+    - Show me the WFH policy.
+    - Can you find the company’s work-from-home guidelines?
+    - I need the work-from-home rules.
+    - What are the company holidays?
+    - Who need to approve wfh
+    - Maximum wfh given
+    - Who are not eligible for WFH
+    - is Balance WFH cannot be carried forward to the next month
